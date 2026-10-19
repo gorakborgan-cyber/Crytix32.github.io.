@@ -1,0 +1,132 @@
+index.html.
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Crytix32 — стримы, игры, Minecraft и аниме. Подписывайся на мои соцсети!">
+  <title>Crytix32 — Стример</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #090909;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 18px;
+      text-align: center;
+      border-bottom: 1px solid #292929;
+    }
+    header a { color: white; text-decoration: none; margin: 8px; }
+    .hero {
+      min-height: 420px;
+      padding: 65px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: radial-gradient(ellipse, #541010 0%, #170909 45%, #090909 78%);
+    }
+    .avatar {
+      width: 145px;
+      height: 145px;
+      border: 3px solid #ff3030;
+      border-radius: 24px;
+      display: grid;
+      place-items: center;
+      font-size: 58px;
+      background: #161616;
+      box-shadow: 0 0 30px #e21b1b55;
+    }
+    h1 { font-size: clamp(38px, 8vw, 64px); margin: 20px 0 8px; }
+    h1 span { color: #ff3030; }
+    p { color: #c9c9c9; line-height: 1.7; }
+    .buttons { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 22px; }
+    .btn {
+      background: #e52626; color: white; padding: 13px 20px;
+      border-radius: 9px; text-decoration: none; font-weight: bold;
+    }
+    .btn:hover { background: #a91515; }
+    .secondary { background: #222; border: 1px solid #444; }
+    section { padding: 35px 18px; max-width: 900px; margin: auto; }
+    h2 { border-left: 4px solid #ff3030; padding-left: 12px; }
+    .panel {
+      background: #141414; border: 1px solid #292929;
+      padding: 20px; border-radius: 12px; margin: 14px 0;
+    }
+    footer { text-align: center; padding: 25px; color: #888; border-top: 1px solid #222; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#about">Обо мне</a>
+    <a href="#schedule">Расписание</a>
+    <a href="#videos">Видео</a>
+    <a href="#socials">Соцсети</a>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="avatar">🔥</div>
+      <h1><span>Crytix</span>32</h1>
+      <p>СТРИМЫ • ИГРЫ • MINECRAFT • АНИМЕ</p>
+      <p>Добро пожаловать на мой официальный сайт!</p>
+      <div class="buttons">
+        <a class="btn" href="#socials">Мои соцсети</a>
+        <a class="btn secondary" href="#videos">Мои видео</a>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>👋 Обо мне</h2>
+      <div class="panel">
+        <p>Я Crytix32! Здесь ты найдёшь мои стримы,
+        игровые видео, новости и ссылки на мои соцсети.</p>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <h2>📅 Расписание стримов</h2>
+      <div class="panel">
+        <p>Понедельник — пятница: выходные</p>
+        <p>Суббота — стрим 🎮</p>
+        <p>Воскресенье — стрим 🔥</p>
+        <p>Время начала объявляю в своих соцсетях.</p>
+      </div>
+    </section>
+
+    <section id="videos">
+      <h2>🎬 Мои видео</h2>
+      <div class="panel">
+        <p>Здесь будут мои новые ролики и записи стримов.</p>
+        <a class="btn" href="https://www.youtube.com/"
+           target="_blank" rel="noopener">Открыть YouTube</a>
+      </div>
+    </section>
+
+    <section id="socials">
+      <h2>🌐 Мои соцсети</h2>
+      <div class="buttons">
+        <!-- Замени ссылки на адреса своих каналов -->
+        <a class="btn" href="https://www.twitch.tv/"
+           target="_blank" rel="noopener">Twitch</a>
+        <a class="btn" href="https://www.youtube.com/"
+           target="_blank" rel="noopener">YouTube</a>
+        <a class="btn" href="https://www.tiktok.com/"
+           target="_blank" rel="noopener">TikTok</a>
+        <a class="btn secondary" href="https://discord.com/"
+           target="_blank" rel="noopener">Discord</a>
+        <a class="btn secondary" href="https://telegram.org/"
+           target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Crytix32 • Сделано с ❤️</footer>
+</body>
+</html>
